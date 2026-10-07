@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329" />
+      <stop offset="50%" stop-color="#0f1d3d" />
+      <stop offset="100%" stop-color="#080d1a" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#bgGrad)" />
+  <rect width="600" height="600" fill="url(#grid)" />
+
+  <!-- Center subtle glow -->
+  <circle cx="300" cy="300" r="220" fill="url(#glowGrad)" />
+
+  <!-- Outer tech rings -->
+  <circle cx="300" cy="300" r="190" fill="none" stroke="rgba(56,189,248,0.15)" stroke-width="1" stroke-dasharray="8 6" />
+  <circle cx="300" cy="300" r="160" fill="none" stroke="rgba(99,102,241,0.2)" stroke-width="2" />
+  
+  <!-- Central Shield / Avatar Badge -->
+  <g transform="translate(300, 240)">
+    <!-- Shield Outline -->
+    <path d="M 0 -70 L 60 -45 C 60 25, 30 75, 0 95 C -30 75, -60 25, -60 -45 Z" 
+          fill="#0c152a" stroke="url(#accentGrad)" stroke-width="3" />
+    <!-- Inner Shield Symbol: Code / Lock -->
+    <path d="M -22 -10 L -35 5 L -22 20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 22 -10 L 35 5 L 22 20" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="12" y1="-15" x2="-12" y2="25" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Name Monogram -->
+  <text x="300" y="410" font-family="'Inter', sans-serif" font-size="34" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="2">
+    SOURAV MAZUMDAR
+  </text>
+  <text x="300" y="445" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="500" fill="#38bdf8" text-anchor="middle" letter-spacing="1">
+    CSE STUDENT &bull; CYBERSECURITY
+  </text>
+  <text x="300" y="475" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b" text-anchor="middle">
+    [ Replace with public/profile.jpg ]
+  </text>
+</svg>
