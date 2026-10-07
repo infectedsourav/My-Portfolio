@@ -1,0 +1,11 @@
+{
+  "description": "Personal portfolio of Soumesh Mazumdar Sourav",
+  "repo": "https://github.com/infectedsourav/portfolio",
+  "owner": {
+    "username": "infectedsourav",
+    "email": "souravmazumdar45@gmail.com"
+  },
+  "record": {
+    "CNAME": "infectedsourav.github.io"
+  }
+}

@@ -24,7 +24,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, an interactive **HTML5 Canvas 
   - **Frontend**: Responsive React app with real-time API integration.
   - **Backend**: Express API server (`POST /api/contact`) validating and persisting messages to `server/messages.json`.
   - **Hybrid / Fail-Safe**: If deployed to static hosting (like GitHub Pages) where the backend is not hosted, the contact form automatically provides seamless 1-click fallback to direct Email (mailto) and WhatsApp!
-- **Featured Projects**: Includes *SwasthoNirapod* (Privacy-focused Telemedicine Platform) alongside structured project cards with technology tags and direct links.
+- **Featured Projects**: Includes *HealNSight* (Privacy-focused Telemedicine Platform) alongside structured project cards with technology tags and direct links.
 - **Categorized Skills**: Programming, Web Development, Cybersecurity, and Developer Tools (no arbitrary percentage bars).
 - **Learning & Development Timeline**: Clearly showcases learning progression (Linux, Networking, Nmap, Web Security, React, Django) and CSE fundamentals.
 - **Direct Connect & Inquiries**: WhatsApp instant chat, copyable phone number, copyable Gmail, direct mail composer, and full contact form.

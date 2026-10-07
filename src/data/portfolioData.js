@@ -32,8 +32,8 @@ export const navLinks = [
 
 export const projects = [
   {
-    id: "swasthonirapod",
-    title: "SwasthoNirapod",
+    id: "HealNSight",
+    title: "HealNSight",
     category: "Secure Telemedicine Platform",
     featured: true,
     description: "A privacy-focused telemedicine platform designed around secure communication, consent-based access and protected patient health records.",
@@ -51,8 +51,8 @@ export const projects = [
       "Role-based access control for patient health data",
       "RESTful API architecture with Django REST Framework"
     ],
-    liveUrl: "https://example.com/demo/swasthonirapod",
-    githubUrl: "https://github.com/infectedsourav/swasthonirapod",
+    liveUrl: "https://example.com/demo/HealNSight",
+    githubUrl: "https://github.com/infectedsourav/HealNSight",
   },
   {
     id: "cybersecurity-project",
